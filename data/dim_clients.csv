@@ -1,0 +1,31 @@
+client_id,client_name,region,country,client_tier,industry_vertical,account_manager,onboarding_date
+101,Bharat Financial Technologies Ltd.,EMEA,Germany,Mid-Market,Manufacturing & Energy,Neha Kulkarni,2021-12-22
+102,Indus Health Innovations,EMEA,UK,SMB,Banking & FinTech,Neha Kulkarni,2021-11-17
+103,Himalaya Digital Retail,North America,Canada,Mid-Market,Banking & FinTech,Neha Kulkarni,2021-09-30
+104,Ganga Telecom Networks,APAC,India,Mid-Market,Telecom & Media,Rohan Mehra,2022-04-29
+105,Kaveri Enterprise Cloud,EMEA,Germany,Mid-Market,Healthcare & Life Sciences,Rohan Mehra,2022-06-19
+106,Vindhya Power & Infrastructure,North America,USA,SMB,Retail & E-Commerce,Amitabh Sen,2022-02-09
+107,Godavari Logistics Systems,North America,USA,Mid-Market,Manufacturing & Energy,Neha Kulkarni,2022-09-25
+108,Narmada Consumer Goods,North America,Canada,Mid-Market,Telecom & Media,Rohan Mehra,2022-01-24
+109,Satpura Automotive Infotech,North America,USA,SMB,Retail & E-Commerce,Amitabh Sen,2022-08-22
+110,Yamuna Life Sciences,EMEA,UK,Mid-Market,Retail & E-Commerce,Deepika Joshi,2022-08-02
+111,Brahmaputra Fintech Labs,North America,USA,Mid-Market,Healthcare & Life Sciences,Karan Singhania,2021-09-25
+112,Thar Renewable Energy Corp,APAC,Singapore,Mid-Market,Healthcare & Life Sciences,Deepika Joshi,2022-05-29
+113,Deccan Heavy Engineering,APAC,Singapore,SMB,Healthcare & Life Sciences,Rohan Mehra,2022-10-07
+114,Shivalik Media & Entertainment,EMEA,UK,Tier-1 Enterprise,Manufacturing & Energy,Karan Singhania,2022-08-05
+115,Aravalli Defense Electronics,EMEA,Germany,SMB,Manufacturing & Energy,Deepika Joshi,2022-06-15
+116,Chola Maritime Software,APAC,India,Tier-1 Enterprise,Healthcare & Life Sciences,Karan Singhania,2022-04-09
+117,Pallava Chemical Tech,North America,USA,Tier-1 Enterprise,Banking & FinTech,Amitabh Sen,2022-09-30
+118,Maurya Payments Infrastructure,North America,USA,SMB,Telecom & Media,Karan Singhania,2022-11-15
+119,Kalinga Smart Cities Corp,EMEA,Germany,Mid-Market,Telecom & Media,Karan Singhania,2022-04-22
+120,Ashoka Retail Omnichannel,North America,Canada,Tier-1 Enterprise,Manufacturing & Energy,Amitabh Sen,2022-01-03
+121,Utkal Steel & Minerals,EMEA,UK,SMB,Manufacturing & Energy,Rohan Mehra,2021-11-19
+122,Konkan Software Labs,APAC,Singapore,Mid-Market,Banking & FinTech,Rohan Mehra,2022-05-09
+123,Malabar Agro Technologies,North America,USA,Mid-Market,Telecom & Media,Amitabh Sen,2021-12-13
+124,Coromandel Supply Chain Ltd.,APAC,Singapore,SMB,Manufacturing & Energy,Neha Kulkarni,2022-04-02
+125,Sahyadri Diagnostic Platforms,North America,USA,Tier-1 Enterprise,Retail & E-Commerce,Karan Singhania,2022-02-09
+126,Nilgiri Global Consulting,North America,USA,SMB,Healthcare & Life Sciences,Rohan Mehra,2021-11-22
+127,Zanskar Aerospace Tech,APAC,India,Tier-1 Enterprise,Manufacturing & Energy,Karan Singhania,2021-09-03
+128,Pir Panjal Logistics,North America,USA,SMB,Manufacturing & Energy,Rohan Mehra,2022-04-11
+129,Sundarbans Eco Technologies,North America,USA,Mid-Market,Banking & FinTech,Rohan Mehra,2021-09-24
+130,Andaman Marine Informatics,EMEA,Germany,Mid-Market,Healthcare & Life Sciences,Amitabh Sen,2022-08-16

@@ -1,0 +1,33 @@
+======================================================================
+SYNTHETIC DATASET VALIDATION REPORT — STEP 10
+Timestamp: 2026-11-18 19:31:21
+Database File: d:\Monthly Revenue Trend Analysis\data\app.db
+======================================================================
+
+1. TABLE ROW COUNTS & TARGET VERIFICATION:
+  - dim_service_lines        :    4 rows (VERIFIED)
+  - dim_clients              :   30 rows (VERIFIED)
+  - dim_projects             :   60 rows (VERIFIED)
+  - fact_budget_targets      :   96 rows (VERIFIED)
+  - fact_monthly_revenue     :  240 rows (VERIFIED)
+  - vw_revenue_analysis      :  240 rows, 38 columns (VERIFIED)
+
+2. FOREIGN KEY INTEGRITY AUDIT:
+  - Status: 100% CLEAN. Zero referential violations detected.
+
+3. VALUE RANGE & BUSINESS RULE VERIFICATION:
+  - Billed Revenue Range : INR 5.62L to 48.50L (Mean: INR 14.92L)
+  - Gross Margin % Range : -15.00% to 44.89% (Mean: 36.66%)
+  - Days to Pay (DSO)    : 15 days to 97 days (Mean: 27.6 days)
+  - High Concentration  : 22 invoices triggered > 15% revenue threshold (Alert Verified)
+
+4. INJECTED DATA QUALITY ISSUES (For Step 15 Cleaning):
+  - Missing Values : 6 records with NULL in hours_billed (2.5% missing rate in raw data)
+  - Missing Values : 10 records with NULL in payment_settled_date (unpaid/pending collection)
+  - Duplicate Rows : 2 duplicate records injected in data/raw_monthly_revenue.csv (INV-*-DUP)
+  - High Outlier   : INV-2024-1108 billed at INR 48.50L (Practice median: ~14.2L)
+  - Margin Outlier : Invoice 1076 with delivery penalty direct cost INR 13.8L on 12.0L revenue (-15.0% margin)
+
+======================================================================
+VALIDATION STATUS: PASSED (All Schema Constraints & Business Patterns Active)
+======================================================================

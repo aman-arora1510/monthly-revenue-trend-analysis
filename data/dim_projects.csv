@@ -1,0 +1,61 @@
+project_id,project_name,client_id,service_line_id,contract_type,billing_currency,start_date,end_date,hourly_rate,budget_cap
+501,Project Varun - Cloud Delivery 501,101,1,Fixed-Price,INR,2023-10-18,,,155.89
+502,Project Varun - Data Delivery 502,101,2,Fixed-Price,INR,2024-02-18,2025-05-13,,217.04
+503,Project Kavach - Cybersecurity Delivery 503,102,4,Fixed-Price,INR,2023-12-19,,,180.9
+504,Project Varun - Enterprise Delivery 504,102,3,Time & Material,INR,2023-10-31,2024-05-30,3949.49,165.9
+505,Project Kavach - Data Delivery 505,103,2,Retainer,INR,2023-10-02,2024-04-29,,101.21
+506,Project Shakti - Cloud Delivery 506,103,1,Time & Material,INR,2024-02-09,2025-04-12,3528.41,83.82
+507,Project Varun - Cybersecurity Delivery 507,104,4,Fixed-Price,INR,2024-01-13,2024-08-29,,178.62
+508,Project Surya - Enterprise Delivery 508,104,3,Time & Material,INR,2024-01-28,,2984.18,177.62
+509,Project Surya - Cloud Delivery 509,105,1,Fixed-Price,INR,2023-12-26,,,79.67
+510,Project Varun - Data Delivery 510,105,2,Fixed-Price,INR,2023-11-05,,,110.14
+511,Project Varun - Data Delivery 511,106,2,Fixed-Price,INR,2024-02-18,2025-05-19,,210.48
+512,Project Astra - Cloud Delivery 512,106,1,Fixed-Price,INR,2024-01-13,,,98.47
+513,Project Astra - Cybersecurity Delivery 513,107,4,Fixed-Price,INR,2024-01-06,2025-01-19,,107.74
+514,Project Surya - Cybersecurity Delivery 514,107,4,Time & Material,INR,2024-02-20,,4454.68,94.18
+515,Project Garuda - Data Delivery 515,108,2,Fixed-Price,INR,2023-12-20,2025-04-12,,145.82
+516,Project Shakti - Data Delivery 516,108,2,Fixed-Price,INR,2023-11-17,2024-06-18,,181.54
+517,Project Shakti - Data Delivery 517,109,2,Time & Material,INR,2024-02-23,2025-06-21,2935.12,74.76
+518,Project Kavach - Enterprise Delivery 518,109,3,Time & Material,INR,2023-12-20,2025-01-05,3244.99,176.19
+519,Project Shakti - Cybersecurity Delivery 519,110,4,Time & Material,INR,2023-10-03,,6194.75,239.3
+520,Project Kavach - Cloud Delivery 520,110,1,Retainer,INR,2024-02-07,2025-01-30,,218.56
+521,Project Tejas - Data Delivery 521,111,2,Time & Material,INR,2023-11-10,,4646.94,114.45
+522,Project Tejas - Cloud Delivery 522,111,1,Retainer,INR,2023-10-27,,,84.17
+523,Project Astra - Cloud Delivery 523,112,1,Fixed-Price,INR,2023-12-09,2024-09-21,,189.17
+524,Project Tejas - Data Delivery 524,112,2,Retainer,INR,2024-02-07,,,222.96
+525,Project Surya - Cloud Delivery 525,113,1,Fixed-Price,INR,2023-12-10,2024-11-24,,198.8
+526,Project Varun - Enterprise Delivery 526,113,3,Fixed-Price,INR,2024-02-19,,,160.96
+527,Project Astra - Cloud Delivery 527,114,1,Fixed-Price,INR,2024-02-17,2025-02-20,,164.85
+528,Project Astra - Data Delivery 528,114,2,Time & Material,INR,2023-10-11,2024-04-28,5856.34,97.81
+529,Project Shakti - Data Delivery 529,115,2,Retainer,INR,2023-12-30,,,219.14
+530,Project Astra - Cybersecurity Delivery 530,115,4,Retainer,INR,2023-11-30,,,235.72
+531,Project Garuda - Data Delivery 531,116,2,Time & Material,INR,2023-11-15,,3929.43,227.55
+532,Project Astra - Data Delivery 532,116,2,Time & Material,INR,2023-10-28,,2931.66,144.72
+533,Project Trishul - Data Delivery 533,117,2,Time & Material,INR,2023-12-18,,5762.5,100.13
+534,Project Trishul - Data Delivery 534,117,2,Time & Material,INR,2023-12-11,,6087.42,110.24
+535,Project Trishul - Cybersecurity Delivery 535,118,4,Retainer,INR,2023-10-08,2024-08-16,,92.14
+536,Project Shakti - Enterprise Delivery 536,118,3,Fixed-Price,INR,2024-01-20,2024-12-25,,138.55
+537,Project Kavach - Cloud Delivery 537,119,1,Time & Material,INR,2023-12-05,2025-01-11,2805.75,226.6
+538,Project Surya - Data Delivery 538,119,2,Time & Material,INR,2023-10-18,,5930.62,172.17
+539,Project Tejas - Cloud Delivery 539,120,1,Retainer,INR,2024-02-07,2025-03-02,,118.71
+540,Project Astra - Enterprise Delivery 540,120,3,Retainer,INR,2023-11-19,,,229.27
+541,Project Tejas - Data Delivery 541,121,2,Retainer,INR,2024-01-12,,,60.07
+542,Project Surya - Enterprise Delivery 542,121,3,Fixed-Price,INR,2024-02-26,,,118.0
+543,Project Kavach - Cybersecurity Delivery 543,122,4,Time & Material,INR,2024-02-08,,5864.01,203.28
+544,Project Shakti - Data Delivery 544,122,2,Retainer,INR,2023-12-12,,,173.93
+545,Project Kavach - Enterprise Delivery 545,123,3,Fixed-Price,INR,2023-12-19,2024-09-25,,86.52
+546,Project Varun - Cloud Delivery 546,123,1,Fixed-Price,INR,2023-10-19,,,219.5
+547,Project Surya - Data Delivery 547,124,2,Retainer,INR,2024-02-04,,,86.56
+548,Project Surya - Cloud Delivery 548,124,1,Fixed-Price,INR,2023-11-26,2025-02-13,,143.62
+549,Project Varun - Data Delivery 549,125,2,Fixed-Price,INR,2023-11-04,,,180.16
+550,Project Surya - Enterprise Delivery 550,125,3,Time & Material,INR,2024-02-18,,3341.14,215.07
+551,Project Kavach - Cybersecurity Delivery 551,126,4,Time & Material,INR,2023-12-10,,4572.42,172.81
+552,Project Shakti - Enterprise Delivery 552,126,3,Time & Material,INR,2023-12-13,2024-11-28,3887.01,157.23
+553,Project Kavach - Data Delivery 553,127,2,Fixed-Price,INR,2024-01-07,,,187.16
+554,Project Surya - Cloud Delivery 554,127,1,Time & Material,INR,2023-12-24,,4213.63,97.23
+555,Project Garuda - Cybersecurity Delivery 555,128,4,Time & Material,INR,2024-02-25,,2820.05,123.32
+556,Project Kavach - Cybersecurity Delivery 556,128,4,Time & Material,INR,2024-02-02,2025-03-11,4451.18,129.99
+557,Project Astra - Cybersecurity Delivery 557,129,4,Retainer,INR,2024-01-28,,,236.53
+558,Project Garuda - Cloud Delivery 558,129,1,Time & Material,INR,2023-10-22,,3261.38,143.11
+559,Project Surya - Cloud Delivery 559,130,1,Time & Material,INR,2023-12-23,2024-12-04,3947.5,218.34
+560,Project Tejas - Enterprise Delivery 560,130,3,Time & Material,INR,2023-10-21,,5346.68,69.38

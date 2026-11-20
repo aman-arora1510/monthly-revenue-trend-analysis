@@ -1,0 +1,77 @@
+erDiagram
+    dim_clients ||--o{ dim_projects : "contracts"
+    dim_service_lines ||--o{ dim_projects : "governs"
+    dim_projects ||--o{ fact_monthly_revenue : "generates"
+    dim_clients ||--o{ fact_monthly_revenue : "billed_to"
+    dim_service_lines ||--o{ fact_monthly_revenue : "executed_by"
+    dim_service_lines ||--o{ fact_budget_targets : "assigned"
+
+    dim_service_lines {
+        INTEGER service_line_id PK
+        TEXT service_line_name UK
+        TEXT practice_lead
+        REAL target_margin_pct
+        TEXT created_at
+    }
+
+    dim_clients {
+        INTEGER client_id PK
+        TEXT client_name UK
+        TEXT region
+        TEXT country
+        TEXT client_tier
+        TEXT industry_vertical
+        TEXT account_manager
+        TEXT onboarding_date
+    }
+
+    dim_projects {
+        INTEGER project_id PK
+        TEXT project_name
+        INTEGER client_id FK
+        INTEGER service_line_id FK
+        TEXT contract_type
+        TEXT billing_currency
+        TEXT start_date
+        TEXT end_date
+        REAL hourly_rate
+        REAL budget_cap
+    }
+
+    fact_budget_targets {
+        INTEGER target_id PK
+        INTEGER service_line_id FK
+        TEXT target_month
+        INTEGER fiscal_year
+        TEXT fiscal_quarter
+        REAL target_revenue_amount
+        REAL target_margin_pct
+        REAL target_cost_amount
+        TEXT created_date
+    }
+
+    fact_monthly_revenue {
+        INTEGER invoice_id PK
+        TEXT invoice_number UK
+        INTEGER project_id FK
+        INTEGER client_id FK
+        INTEGER service_line_id FK
+        TEXT invoice_date
+        TEXT billing_month
+        INTEGER fiscal_year
+        TEXT fiscal_quarter
+        TEXT contract_type
+        REAL billed_amount
+        REAL direct_delivery_cost
+        REAL gross_margin_amount
+        REAL gross_margin_pct
+        REAL hours_billed
+        REAL effective_rate
+        TEXT invoice_status
+        TEXT payment_due_date
+        TEXT payment_settled_date
+        TEXT payment_status
+        INTEGER days_to_pay
+        INTEGER is_overdue
+        TEXT aging_bucket
+    }
