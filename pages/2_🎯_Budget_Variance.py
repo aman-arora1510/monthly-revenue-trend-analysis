@@ -137,10 +137,15 @@ st.dataframe(p_df, use_container_width=True, hide_index=True)
 st.markdown("### 📅 Monthly Reconciliation: Target vs Actual")
 m_act = df_actuals.groupby("billing_month")["billed_amount"].sum().reset_index()
 m_tgt = df_targets.groupby("target_month")["target_revenue_amount"].sum().reset_index()
-m_merged = pd.merge(m_tgt, m_act, left_on="target_month", right_on="billing_month", how="outer").fillna(0.0)
-m_merged.rename(columns={"target_month": "Month", "target_revenue_amount": "Target (₹L)", "billed_amount": "Actual (₹L)"}, inplace=True)
-m_merged = m_merged[m_merged["Month"].notnull()].sort_values("Month")
+m_merged = pd.merge(m_tgt, m_act, left_on="target_month", right_on="billing_month", how="outer")
+m_merged["Month"] = m_merged["target_month"].combine_first(m_merged["billing_month"])
+m_merged["Target (₹L)"] = m_merged["target_revenue_amount"].fillna(0.0).round(2)
+m_merged["Actual (₹L)"] = m_merged["billed_amount"].fillna(0.0).round(2)
 m_merged["Variance (₹L)"] = (m_merged["Actual (₹L)"] - m_merged["Target (₹L)"]).round(2)
-m_merged["Attainment %"] = ((m_merged["Actual (₹L)"] / m_merged["Target (₹L)"]) * 100).round(1)
+m_merged["Attainment %"] = m_merged.apply(
+    lambda row: round((row["Actual (₹L)"] / row["Target (₹L)"]) * 100.0, 1) if row["Target (₹L)"] > 0 else 0.0,
+    axis=1
+)
+m_merged = m_merged.sort_values("Month")
 
 st.dataframe(m_merged[["Month", "Target (₹L)", "Actual (₹L)", "Variance (₹L)", "Attainment %"]], use_container_width=True, hide_index=True)
