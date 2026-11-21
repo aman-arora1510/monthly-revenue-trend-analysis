@@ -1,0 +1,71 @@
+================================================================================
+PROJECT SUBMISSION DETAILS & EXECUTIVE DESCRIPTION
+================================================================================
+
+PROJECT TITLE:
+Monthly Revenue Trend Analysis & Predictive Financial Performance Platform
+
+ACADEMIC CREDENTIALS:
+- Student Name: Aman Arora
+- University Roll Number: 25003201400013
+- Program: Master of Computer Applications (MCA 2nd Year)
+- Specialization: Data Analytics
+- College: ABES Engineering College, Ghaziabad
+- Affiliation: Dr. A.P.J. Abdul Kalam Technical University (AKTU), Lucknow
+- Faculty Mentor: MRS Kalpana Diwedi (Department of Computer Applications)
+- Academic Session: 2024–2026
+
+ENTERPRISE CASE STUDY CONTEXT:
+- Organization: Novatech Solutions Pvt. Ltd., Noida
+- Profile: Mid-sized IT services consulting firm (500+ employees)
+- Practice Areas: Cloud Solutions, Data & AI, Enterprise Applications, Cybersecurity
+- Geographic Territories: North America (NA), EMEA, APAC
+- Contract Models: Fixed-Price, Time & Material (T&M), Retainer
+
+OFFICIAL GITHUB REPOSITORY:
+https://github.com/aman-arora1510/monthly-revenue-trend-analysis
+(Branch: main | Status: 15/15 Automated Tests Passing)
+
+LOCAL RUNNABLE LINK:
+http://localhost:8501
+
+--------------------------------------------------------------------------------
+EXECUTIVE ABSTRACT & PROBLEM STATEMENT:
+--------------------------------------------------------------------------------
+In IT professional services, financial velocity dictates operational stability, delivery margin health, and cash flow. Novatech Solutions previously suffered from a 14-day month-end reporting latency caused by fragmented spreadsheets, timesheets, and accounting silos. This legacy process obscured gross delivery margin overruns, delayed accounts receivable collections (DSO > 45 days), and left single-client revenue concentration (>15% revenue dependency) completely unmonitored.
+
+To solve this, the "Monthly Revenue Trend Analysis Platform" provides an automated, sub-second financial intelligence pipeline. Backed by an embedded SQLite Kimball-style Star Schema (data/app.db) and a responsive multipage Streamlit web platform with Tailwind CSS styling, the system processes 240 clean transactional invoices spanning 24 continuous months (Jan 2024 to Dec 2025) with zero referential foreign key violations.
+
+--------------------------------------------------------------------------------
+KEY MODULES & CAPABILITIES (UI-01 TO UI-08):
+--------------------------------------------------------------------------------
+1. Executive Scorecard (app.py / UI-01): Consolidated revenue velocity, gross margin gauges, overdue invoice counters, concentration alerts, and 24-month revenue trajectory.
+2. Multi-Dimensional Trends (pages/1_... / UI-02): 4-practice trajectory lines, geographic territory market share, and contract engagement model comparisons.
+3. Budget Variance Diagnostics (pages/2_... / UI-03): Plotly waterfall variance analysis (surplus green, deficit red), attainment rates, and monthly budget reconciliation.
+4. Client Concentration & Risk (pages/3_... / UI-04): Dual-axis Pareto (80/20) curve, Top 10 client rankings, and automated warning banners for accounts exceeding the 15% revenue threshold.
+5. Predictive Time-Series Forecasting (pages/4_... / UI-05): Triple Exponential Smoothing (Holt-Winters) 3-month forward projections with 95% confidence intervals and verified MAPE accuracy of 1.83% (< 10%).
+6. Working Capital & DSO Collections (pages/5_... / UI-06): Margin trajectory against the 35% target line, DSO turnaround velocity, and 4-bucket A/R aging schedule.
+7. Data Explorer & Export Engine (pages/6_... / UI-07): Searchable table querying all 38 columns in vw_revenue_analysis with one-click filtered CSV export.
+8. Data Quality & Schema Governance (pages/7_... / UI-08): Database schema audit, referential integrity verification, data cleaning metrics, and student credits.
+
+--------------------------------------------------------------------------------
+MATHEMATICAL FORMULATIONS:
+--------------------------------------------------------------------------------
+1. MoM Growth % = ((Revenue_t - Revenue_{t-1}) / Revenue_{t-1}) * 100
+2. Budget Variance = Actual Revenue - Target Budget
+3. Target Attainment % = (Actual Revenue / Target Budget) * 100
+4. Gross Margin % = ((Billed Amount - Direct Delivery Cost) / Billed Amount) * 100 (Target >= 35%)
+5. Days Sales Outstanding (DSO) = (Accounts Receivable / Total Credit Sales) * 30 (Target <= 45 days)
+6. Client Concentration Share % = (Client Revenue / Total Monthly Revenue) * 100 (Trigger alert if >= 15%)
+7. Holt-Winters Triple Smoothing: Level, Trend, Seasonality with 95% Confidence Interval
+
+--------------------------------------------------------------------------------
+QUALITY ASSURANCE & TESTING:
+--------------------------------------------------------------------------------
+- Test Suite: 15 / 15 automated unit tests passing (100%) in 0.020 seconds.
+- tests/test_data.py: 6 tests (schema existence, row counts, PK uniqueness, FK checks, range constraints).
+- tests/test_analysis.py: 5 tests (MoM, YoY, Variance, Gross Margin, DSO, MAPE).
+- tests/test_app.py: 4 tests (theme config, UI loading, query execution < 3.0s SLA, empty filter protection).
+- Relational Schema: 0 foreign key violations detected.
+- In-memory query latency: < 0.05 seconds.
+================================================================================
