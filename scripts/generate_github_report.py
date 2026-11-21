@@ -153,16 +153,18 @@ def build_github_report():
 
     # Student & Project Details Card
     meta_data = [
+        [Paragraph("<b>Project ID:</b>", body_style), Paragraph("P049", body_style),
+         Paragraph("<b>Batch ID:</b>", body_style), Paragraph("ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01", body_style)],
         [Paragraph("<b>Author / Student:</b>", body_style), Paragraph("Aman Arora", body_style),
          Paragraph("<b>Roll Number:</b>", body_style), Paragraph("25003201400013", body_style)],
         [Paragraph("<b>Institution:</b>", body_style), Paragraph("ABES Engineering College", body_style),
          Paragraph("<b>Program:</b>", body_style), Paragraph("MCA 2nd Year (Data Analytics)", body_style)],
-        [Paragraph("<b>Faculty Mentor:</b>", body_style), Paragraph("MRS Kalpana Diwedi", body_style),
+        [Paragraph("<b>Project Mentor:</b>", body_style), Paragraph("Dinesh Sereno", body_style),
          Paragraph("<b>Enterprise Context:</b>", body_style), Paragraph("Novatech Solutions Pvt. Ltd., Noida", body_style)],
         [Paragraph("<b>Repository URL:</b>", body_style), Paragraph("<font color='#0284C7'><u>https://github.com/aman-arora1510/monthly-revenue-trend-analysis</u></font>", body_style),
          Paragraph("<b>Repository Visibility:</b>", body_style), Paragraph("<font color='#10B981'><b>Public</b></font> (Branch: main)", body_style)]
     ]
-    t_meta = Table(meta_data, colWidths=[100, 160, 95, 149])
+    t_meta = Table(meta_data, colWidths=[95, 165, 95, 149])
     t_meta.setStyle(TableStyle([
         ('BACKGROUND', (0,0), (-1,-1), c_light),
         ('BOX', (0,0), (-1,-1), 1, c_border),
@@ -318,7 +320,8 @@ streamlit run app.py"""
     story.append(Paragraph("5. Student Certification & Academic Integrity", h1_style))
     story.append(Paragraph(
         "I hereby declare that this project, its underlying source code, database architecture, and analytical models "
-        "have been engineered and uploaded to GitHub by me under the academic mentorship of MRS Kalpana Diwedi at ABES Engineering College. "
+        "have been engineered and uploaded to GitHub by me under the academic mentorship of Dinesh Sereno at ABES Engineering College "
+        "(Project ID: P049, Batch: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01). "
         "The project strictly adheres to all requirements outlined in the MCA Capstone Analytics guidelines.",
         body_style
     ))
@@ -327,7 +330,7 @@ streamlit run app.py"""
     sig_data = [
         [Paragraph("<b>Submitted By:</b>", body_style), Paragraph("<b>Evaluated By:</b>", body_style)],
         [Paragraph("<b>Aman Arora</b><br/>Roll No: 25003201400013<br/>MCA 2nd Year, ABES Engineering College", body_style),
-         Paragraph("<b>MRS Kalpana Diwedi</b><br/>Faculty Mentor / Internal Examiner<br/>Department of Computer Applications", body_style)],
+         Paragraph("<b>Dinesh Sereno</b><br/>Project Mentor / Internal Examiner<br/>Department of Computer Applications", body_style)],
         [Paragraph("Date: 20-November-2026", body_style), Paragraph("Date: ________________________", body_style)]
     ]
     t_sig = Table(sig_data, colWidths=[252, 252])

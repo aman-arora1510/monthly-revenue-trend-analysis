@@ -147,9 +147,10 @@ def build_presentation():
         Paragraph("<font size='13' color='#475569'>Enterprise Financial Performance Intelligence & Multipage Analytical Platform</font>", ParagraphStyle("SSub", alignment=1, spaceAfter=20)),
         HRFlowable(width="60%", thickness=1.5, color=c_secondary, spaceBefore=0, spaceAfter=25),
         Table([
+            [Paragraph("<b>Project ID:</b> P049", body_style), Paragraph("<b>Batch ID:</b> ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01", body_style)],
             [Paragraph("<b>Student Presenter:</b> Aman Arora", body_style), Paragraph("<b>University Roll No:</b> 25003201400013", body_style)],
             [Paragraph("<b>Degree Program:</b> MCA 2nd Year (Data Analytics)", body_style), Paragraph("<b>Institution:</b> ABES Engineering College, Ghaziabad", body_style)],
-            [Paragraph("<b>Faculty Mentor:</b> MRS Kalpana Diwedi", body_style), Paragraph("<b>Enterprise Case Study:</b> Novatech Solutions Pvt. Ltd., Noida", body_style)],
+            [Paragraph("<b>Project Mentor:</b> Dinesh Sereno", body_style), Paragraph("<b>Enterprise Case Study:</b> Novatech Solutions Pvt. Ltd., Noida", body_style)],
             [Paragraph("<b>GitHub:</b> github.com/aman-arora1510/monthly-revenue-trend-analysis", body_style), Paragraph("<b>Tech Stack:</b> Python 3.12 | Streamlit | SQLite | Plotly | Tailwind", body_style)]
         ], colWidths=[360, 360], style=[
             ('BACKGROUND', (0,0), (-1,-1), c_light),

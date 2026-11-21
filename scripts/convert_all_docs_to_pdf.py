@@ -186,7 +186,7 @@ def convert_docx_to_pdf(docx_filename, output_pdf_path):
             # Determine paragraph style from XML or text
             if is_first_para:
                 story.append(Paragraph(p_text, styles["title"]))
-                story.append(Paragraph("Novatech Solutions Pvt. Ltd. | MCA Capstone Analytics Submission", styles["subtitle"]))
+                story.append(Paragraph("Novatech Solutions Pvt. Ltd. | Project ID: P049 | Batch: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01 | Mentor: Dinesh Sereno", styles["subtitle"]))
                 story.append(HRFlowable(width="100%", thickness=1, color=c_secondary, spaceBefore=0, spaceAfter=8))
                 is_first_para = False
             elif p_text.startswith("STEP ") or p_text.startswith("SECTION ") or p_text.isupper() and len(p_text) < 60:
@@ -300,7 +300,7 @@ def convert_xlsx_to_pdf(xlsx_filename, output_pdf_path):
     # Document Title
     base_title = xlsx_filename.replace(".xlsx", "").replace("_", " ")
     story.append(Paragraph(base_title.upper(), styles["title"]))
-    story.append(Paragraph("Novatech Solutions Pvt. Ltd. | Relational Database & Traceability Specification", styles["subtitle"]))
+    story.append(Paragraph("Novatech Solutions Pvt. Ltd. | Project ID: P049 | Batch: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01 | Mentor: Dinesh Sereno", styles["subtitle"]))
     story.append(HRFlowable(width="100%", thickness=1, color=c_secondary, spaceBefore=0, spaceAfter=8))
 
     avail_width = 720.0

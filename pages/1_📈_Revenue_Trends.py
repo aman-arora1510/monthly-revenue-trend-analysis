@@ -2,6 +2,9 @@
 pages/1_📈_Revenue_Trends.py
 ----------------------------
 UI-02: Multi-Dimensional Revenue Growth & Practice Trajectory Analysis
+Project ID: P049 | Batch ID: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01
+Author: Aman Arora (Roll No: 25003201400013)
+Project Mentor: Dinesh Sereno | Novatech Solutions Pvt. Ltd.
 """
 
 import streamlit as st

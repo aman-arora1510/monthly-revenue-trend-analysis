@@ -143,9 +143,10 @@ def build_complete_code_pdf():
 
     # Meta card
     meta_data = [
+        [Paragraph("<b>Project ID:</b> P049", body_style), Paragraph("<b>Batch ID:</b> ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01", body_style)],
         [Paragraph("<b>Student Author:</b> Aman Arora", body_style), Paragraph("<b>Roll Number:</b> 25003201400013", body_style)],
         [Paragraph("<b>Institution:</b> ABES Engineering College", body_style), Paragraph("<b>Specialization:</b> MCA 2nd Year (Data Analytics)", body_style)],
-        [Paragraph("<b>Faculty Mentor:</b> MRS Kalpana Diwedi", body_style), Paragraph("<b>Target Environment:</b> Python 3.12 | Streamlit 1.41.0", body_style)],
+        [Paragraph("<b>Project Mentor:</b> Dinesh Sereno", body_style), Paragraph("<b>Target Environment:</b> Python 3.12 | Streamlit 1.41.0", body_style)],
         [Paragraph("<b>GitHub Repository:</b> https://github.com/aman-arora1510/monthly-revenue-trend-analysis", body_style), Paragraph("<b>Branch / Status:</b> main (100% Passing Tests)", body_style)]
     ]
     t_meta = Table(meta_data, colWidths=[252, 252])

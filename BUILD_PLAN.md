@@ -1,9 +1,10 @@
 # BUILD PLAN: Monthly Revenue Trend Analysis Platform
 
 **Document Reference:** `BUILD_PLAN-MRTA-V1.0`  
+**Project ID:** `P049` | **Batch ID:** `ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01`  
 **Target Execution:** Step 15 Implementation  
 **Learner / Lead Architect:** Aman Arora (Roll No: 25003201400013), MCA 2nd Yr DA, ABES Engineering College  
-**Faculty Mentor:** MRS Kalpana Diwedi  
+**Project Mentor:** Dinesh Sereno  
 **Target Architecture:** Python 3.12 | Streamlit Multipage | SQLite (`data/app.db`) | Plotly | Tailwind CSS  
 
 ---
@@ -12,7 +13,7 @@
 
 ### Executive Summary (10 Lines)
 1. **Enterprise Context:** Built for Novatech Solutions Pvt. Ltd., Noida (500-employee IT services firm) to analyze monthly billing across Cloud, AI, Enterprise, and Cyber practices.
-2. **Academic Credentials:** Developed by Aman Arora (Roll No: 25003201400013), MCA 2nd Year Data Analytics at ABES Engineering College under mentorship of MRS Kalpana Diwedi.
+2. **Academic Credentials:** Developed by Aman Arora (Roll No: 25003201400013), MCA 2nd Year Data Analytics at ABES Engineering College under mentorship of Dinesh Sereno (Project ID: P049, Batch: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01).
 3. **Core Problem Solved:** Eliminates the 14-day manual month-end financial reporting latency, replacing fragile spreadsheets with an automated, sub-second analytics pipeline.
 4. **Technology Stack:** Pure Python 3.12, Streamlit Multipage, embedded SQLite (`data/app.db`), Plotly Express/Graph Objects, and Tailwind CSS CDN styling.
 5. **Database Model:** Kimball-style Star Schema featuring 3 master dimensions (`dim_service_lines`, `dim_clients`, `dim_projects`), 2 fact tables, and a 38-column analytical view (`vw_revenue_analysis`).
@@ -269,7 +270,7 @@ Monthly-Revenue-Trend-Analysis/
 * **Files:** `pages/7_⚙️_About_&_Quality.py`
 * **User Stories / Feature IDs:** System Governance (`UI-08`)
 * **Exact Prompt for AI:**  
-  *"Build pages/7_⚙️_About_&_Quality.py displaying data pipeline quality audit cards (missingness: 2.5%, duplicates resolved: 2, outliers audited: 2), SQLite schema documentation, and ABES MCA Capstone credits (Aman Arora, MRS Kalpana Diwedi)."*
+  *"Build pages/7_⚙️_About_&_Quality.py displaying data pipeline quality audit cards (missingness: 2.5%, duplicates resolved: 2, outliers audited: 2), SQLite schema documentation, and ABES MCA Capstone credits (Aman Arora, Dinesh Sereno)."*
 * **How to Check:** Open Page 7; confirm all audit metrics, architecture text, and project credentials render.
 * **Tests That Must Pass:** `tests/test_data.py::test_tc_t_01_database_and_tables_exist`
 

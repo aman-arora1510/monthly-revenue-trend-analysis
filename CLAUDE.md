@@ -2,9 +2,11 @@
 
 ## Project Metadata
 - **Project Name:** Monthly Revenue Trend Analysis
+- **Project ID:** P049
+- **Batch ID:** ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01
 - **Domain:** Data Analyst
 - **Learner:** Aman Arora (Roll: 25003201400013), MCA 2nd yr DA, ABES
-- **Mentor:** MRS Kalpana Diwedi
+- **Project Mentor:** Dinesh Sereno
 - **Tech Stack / Product:** Python + Streamlit app (EDA, statistics, Plotly charts, Tailwind UI), SQLite data, pytest tests, on Streamlit Community Cloud.
 - **Final Submission:** Project Document (ABES Word template) + ABES slide deck.
 

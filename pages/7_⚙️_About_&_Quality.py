@@ -2,8 +2,9 @@
 pages/7_⚙️_About_&_Quality.py
 ------------------------------
 UI-08: Data Quality Audit, Schema Governance & Project Credits
+Project ID: P049 | Batch ID: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01
 Author: Aman Arora (Roll No: 25003201400013)
-Mentor: MRS Kalpana Diwedi | Novatech Solutions Pvt. Ltd.
+Project Mentor: Dinesh Sereno | Novatech Solutions Pvt. Ltd.
 """
 
 import streamlit as st
@@ -88,13 +89,15 @@ with col1:
 with col2:
     st.markdown("### 👨‍💻 Project & Academic Credentials")
     st.info("""
+    **Project ID:** P049  
+    **Batch ID:** ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01  
     **Project Title:** Monthly Revenue Trend Analysis Platform  
     **Enterprise Context:** Novatech Solutions Pvt. Ltd., Noida  
     **Author:** Aman Arora  
-    **Roll Number:** 25003201400013  
+    **University Roll Number:** 25003201400013  
     **Program:** MCA 2nd Year (Data Analytics Specialization)  
     **Institution:** ABES Engineering College  
-    **Faculty Mentor:** MRS Kalpana Diwedi  
+    **Project Mentor:** Dinesh Sereno  
     **Release Version:** v1.0 Production Architecture  
     """)
 

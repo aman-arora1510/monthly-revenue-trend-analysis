@@ -13,11 +13,13 @@ An enterprise financial intelligence and analytics platform developed for **Nova
 
 ## 👨‍💻 Academic & Professional Credentials
 
+* **Project ID:** `P049`
+* **Batch ID:** `ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01`
 * **Author / Lead Architect:** Aman Arora
 * **University Roll Number:** `25003201400013`
 * **Program:** MCA 2nd Year (Data Analytics Specialization)
 * **Institution:** ABES Engineering College
-* **Faculty Mentor:** MRS Kalpana Diwedi
+* **Project Mentor:** Dinesh Sereno
 * **Enterprise Context:** Novatech Solutions Pvt. Ltd., Noida
 
 ---

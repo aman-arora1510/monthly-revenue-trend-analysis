@@ -176,6 +176,7 @@ def build_project_document():
     story.append(Spacer(1, 40))
 
     submission_box = [
+        [Paragraph("<b>Project ID:</b> P049 &nbsp;|&nbsp; <b>Batch ID:</b> ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01", body_style)],
         [Paragraph("<b>Submitted In Partial Fulfillment of the Requirements for:</b>", body_style)],
         [Paragraph("<b>Master of Computer Applications (MCA 2nd Year)</b><br/>Specialization: Data Analytics", body_style)],
         [Paragraph("<br/>", body_style)],
@@ -183,7 +184,7 @@ def build_project_document():
         [Paragraph("<b>Aman Arora</b><br/>University Roll No: <b>25003201400013</b>", body_style)],
         [Paragraph("<br/>", body_style)],
         [Paragraph("<b>Under the Mentorship of:</b>", body_style)],
-        [Paragraph("<b>MRS Kalpana Diwedi</b><br/>Assistant Professor / Faculty Mentor<br/>Department of Computer Applications, ABES EC", body_style)],
+        [Paragraph("<b>Dinesh Sereno</b><br/>Project Mentor / Faculty Supervisor<br/>Department of Computer Applications, ABES EC", body_style)],
         [Paragraph("<br/>", body_style)],
         [Paragraph("<b>Academic Session:</b> 2024–2026", body_style)]
     ]
@@ -218,7 +219,7 @@ def build_project_document():
     story.append(Spacer(1, 40))
 
     cert_signatures = [
-        [Paragraph("<b>MRS Kalpana Diwedi</b><br/>Faculty Mentor / Project Supervisor<br/>Department of Computer Applications<br/>ABES Engineering College", body_style),
+        [Paragraph("<b>Dinesh Sereno</b><br/>Project Mentor / Faculty Supervisor<br/>Department of Computer Applications<br/>ABES Engineering College", body_style),
          Paragraph("<b>Head of Department</b><br/>Department of Computer Applications<br/>ABES Engineering College<br/>Ghaziabad (U.P.)", body_style)]
     ]
     t_cert = Table(cert_signatures, colWidths=[252, 252])
@@ -454,7 +455,7 @@ def build_project_document():
     story.append(HRFlowable(width="100%", thickness=0.5, color=c_border, spaceBefore=0, spaceAfter=8))
     eval_data = [
         [Paragraph("<b>Evaluated By:</b>", body_style), Paragraph("<b>Academic Department:</b>", body_style), Paragraph("<b>Signature & Date:</b>", body_style)],
-        [Paragraph("MRS Kalpana Diwedi<br/>Faculty Mentor", body_style), Paragraph("Department of Computer Applications<br/>ABES Engineering College", body_style), Paragraph("___________________________<br/>Date: ____________________", body_style)]
+        [Paragraph("Dinesh Sereno<br/>Project Mentor", body_style), Paragraph("Department of Computer Applications<br/>ABES Engineering College", body_style), Paragraph("___________________________<br/>Date: ____________________", body_style)]
     ]
     t_ev = Table(eval_data, colWidths=[160, 180, 164])
     t_ev.setStyle(TableStyle([

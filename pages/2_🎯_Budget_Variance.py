@@ -2,8 +2,9 @@
 pages/2_🎯_Budget_Variance.py
 ------------------------------
 UI-03: Budget Variance Waterfall & Target Attainment Diagnostic Screen
+Project ID: P049 | Batch ID: ABES_OND26_MCA 2nd Year_Data Analytics_Batch 01
 Author: Aman Arora (Roll No: 25003201400013)
-Mentor: MRS Kalpana Diwedi | Novatech Solutions Pvt. Ltd.
+Project Mentor: Dinesh Sereno | Novatech Solutions Pvt. Ltd.
 """
 
 import streamlit as st
